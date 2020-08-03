@@ -1,7 +1,5 @@
 from flask import Blueprint, request
-from app.service import song_list_service
-import json
-
+from app.service.song_list_service import get_json_cluster_by_list_id
 song_list = Blueprint('song_list', __name__)
 
 
