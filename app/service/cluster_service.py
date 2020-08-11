@@ -30,7 +30,7 @@ def __cluster_data_frame(df_songs, df_labels, num_cluster):
     std_scaler.fit(df_songs)
     df_songs_scaled = std_scaler.transform(df_songs)
 
-    kmeans = KMeans(n_clusters=num_cluster, init='k-means++', random_state=111)
+    kmeans = KMeans(n_clusters=num_cluster, init='k-means++')
     kmeans_labels = kmeans.fit(df_songs_scaled).labels_
 
     cluster_dict = {}
