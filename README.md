@@ -3,7 +3,7 @@
 Clustrify allows Spotify users to group their playlists into clusters depending on the euclidian distance of the attributes of the songs. This allows for an easier way of identifying which tracks in a playlist may suit your taste, without the need for spending countless hours listening through every song manually. It does this via the use of the [Spotify Web API](https://developer.spotify.com/documentation/web-api/).
 
 
-# [TRY IT HERE](https://hanss0n.github.io/Clustrify/)
+# How to use it
 1.  Copy a spotify playlist url/uri, for instance: `https://open.spotify.com/playlist/1VAN3ouvQGhuGkgDdldSoi?si=oFsRrXV4T8avGKvKp9bInQ`
 
 2. Paste the link into the Spotify list URI/URL field at the top
